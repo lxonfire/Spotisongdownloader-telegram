@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 const { search } = require("@nechlophomeriaa/spotifydl");
 
-const bot = new Telegraf("6986927046:AAEP_ZtyWYVLJgT8u7tNlsAWN18Bcp9heLU"); // Add here your bot token
+const bot = new Telegraf(process.env.bot); // Add here your bot token
 
 let userState = {};
 
