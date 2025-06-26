@@ -95,9 +95,7 @@ Spotisongdownloader-telegram/
 ├── 📄 package.json
 ├── 📄 .env.example
 ├── 📄 .gitignore
-├── 📄 paste.txt (main bot file)
-└── 📁 docs/
-    └── 📄 deployment.md
+├── 📄 index.js (main bot file)
 ```
 
 ## 🔧 Dependencies
