@@ -1,24 +1,48 @@
 {
-  "dependencies": {
-    "@nechlophomeriaa/spotifydl": "^1.0.29",
-    "axios": "^1.7.2",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "form-data": "^4.0.0",
-    "puppeteer": "^22.12.1",
-    "telegraf": "^4.16.3"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.4"
-  },
-  "name": "spotify-downloader-bot",
+  "name": "spotisongdownloader-telegram",
   "version": "1.0.0",
+  "description": "A powerful Telegram bot that allows users to search and download songs from Spotify directly to their chat",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon index.js",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "keywords": [
+    "telegram",
+    "bot",
+    "spotify",
+    "downloader",
+    "music",
+    "nodejs",
+    "telegraf"
+  ],
+  "author": {
+    "name": "Abdul Kioum",
+    "url": "https://t.me/Abdul_Kioum"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxonfire/Spotisongdownloader-telegram.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lxonfire/Spotisongdownloader-telegram/issues"
+  },
+  "homepage": "https://github.com/lxonfire/Spotisongdownloader-telegram#readme",
+  "dependencies": {
+    "telegraf": "^4.15.0",
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0",
+    "@nechlophomeriaa/spotifydl": "^1.2.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
 }
